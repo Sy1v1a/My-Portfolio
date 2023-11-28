@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    border: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, white, gray);
+}
+.imagebox {
+    width: 15rem;
+    height: 15rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 2rem;
+    position: relative;
+    left: 25%;
+}
+.facecard {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    image-orientation: inherit;
+}
+
+.navbar {
+    height: 4rem;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+      
+}
+.navbtn {
+    display: inline-flex;
+    align-items: center;
+    padding-right: 3px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.technologies {
+    display:inline-flex;
+    align-items: center;
+}
